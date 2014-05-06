@@ -1,5 +1,8 @@
+html {
+    font-size: 100% // 1rem = 16px;
+}
 .nav-top{
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0);
     padding: 20px;
     border-bottom: none;
 }
@@ -16,8 +19,7 @@
     padding: 100px 100px;
 }
 #about { 
-    background: #eabe48; 
-    height: 100vh;  
+    background: #eabe48;  
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
@@ -25,17 +27,69 @@
 }
 #work { 
     background: #82c6ea;
-    height: 100vh;
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
     padding: 50px 0;
 }
 #contact { 
+    background: #eabe48;
+    height: 500px;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    padding: 50px 0;
+}
+#footer { 
     background: url(images/home.jpg) 50% 0 fixed;
     height: 500px;
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
     padding: 50px 0;
+}
+.thumbnail{
+   border: none;
+    border-radius:0 !important;
+    padding: 0;
+    margin-bottom:30px;
+    
+  
+}
+.thumbnail > img,
+.thumbnail a > img {
+ padding: 0;
+    margin-bottom: 0;
+}
+
+.greetings {
+     width: 100%;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 25vh;
+  text-align: center;
+  
+}
+h1 {
+    font-family: montserrat;
+    letter-spacing: 2px;
+    font-size: 12rem;
+  
+}
+h2{
+    font-family: montserrat;
+    letter-spacing: 2px;
+  font-size: 2rem;
+   line-height: 4rem;
+}
+h3 {
+font-family: montserrat;
+    letter-spacing: 2px;
+  font-size: 1.5rem;
+    color: white;
+}
+p{
+  font-size: 1rem;
+   
 }
