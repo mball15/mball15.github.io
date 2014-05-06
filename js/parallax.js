@@ -20,3 +20,11 @@ $(document).ready(function(){
    });  // end section function
 }); // close out script
 document.createElement("section");
+
+$(function() {
+    $('.required-icon').tooltip({
+        placement: 'left',
+        title: 'Required field',
+        container: 'body'
+        });
+});
