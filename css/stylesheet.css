@@ -1,6 +1,5 @@
-html {
-    font-size: 100% // 1rem = 16px;
-}
+
+
 .nav-top{
     background-color: rgba(255, 255, 255, 0);
     padding: 20px;
@@ -16,7 +15,7 @@ html {
     color: #fff;
     margin: auto; 
     position: relative;     
-    padding: 100px 100px;
+    
 }
 #about { 
     background: #eabe48;  
@@ -65,10 +64,11 @@ html {
 .greetings {
      width: 100%;
   max-width: 450px;
-  margin-left: auto;
-  margin-right: auto;
-   
+  
+    margin-top: 25vh;
   text-align: center;
+   
+    vertical-align: middle;
   
 }
 h1 {
